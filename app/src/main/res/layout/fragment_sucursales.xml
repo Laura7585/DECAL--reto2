@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Piel"
+    android:backgroundTint="@color/Piel"
+    android:backgroundTintMode="screen"
+    tools:context=".fragment_sucursales">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fanwood_text"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center|center_vertical"
+            android:text="Sucursales"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#D50000" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/image1_fsu"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="205dp"
+                        android:layout_height="110dp"
+                        android:fontFamily="@font/fanwood_text"
+                        android:gravity="center"
+                        android:text="Av. Boyacá #17a-65, Bogotá  Horas:  lunes - martes - miércoles - jueves - viernes de 10:00a19:00, sábado -domingos 11:00a16:30" />
+
+                    <ImageButton
+                        android:id="@+id/imageB1_fsu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#07FFFFFF"
+                        android:src="@drawable/ic_baseline_location_on_24" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/image2_fsu"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="205dp"
+                        android:layout_height="110dp"
+                        android:fontFamily="@font/fanwood_text"
+                        android:gravity="center"
+                        android:text="Dirección: Cra. 7 #21-73, Bogotá   Horas:  lunes - martes - miércoles - jueves - viernes de 10:00a19:00, sábado -domingos 11:00a16:30" />
+
+                    <ImageButton
+                        android:id="@+id/imageB2_fsu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#07FFFFFF"
+                        android:src="@drawable/ic_baseline_location_on_24" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/image3_fsu"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="205dp"
+                        android:layout_height="110dp"
+                        android:fontFamily="@font/fanwood_text"
+                        android:gravity="center"
+                        android:text="01, Av. Boyacá ##19, Bogotá   Horas:  lunes - martes - miércoles - jueves - viernes de 10:00a19:00, sábado -domingos 11:00a16:30" />
+
+                    <ImageButton
+                        android:id="@+id/imageB3_fsu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#07FFFFFF"
+                        android:src="@drawable/ic_baseline_location_on_24" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/image4_fsu"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="205dp"
+                        android:layout_height="105dp"
+                        android:fontFamily="@font/fanwood_text"
+                        android:gravity="center"
+                        android:text="Cra. 65 #11-50, Bogotá       Horas:  lunes - martes - miércoles - jueves - viernes de 10:00a19:00, sábado -domingos 11:00a16:30 " />
+
+                    <ImageButton
+                        android:id="@+id/imageB4_fsu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#07FFFFFF"
+                        android:src="@drawable/ic_baseline_location_on_24" />
+
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="25dp"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
